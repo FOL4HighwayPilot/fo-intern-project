@@ -1,0 +1,1423 @@
+{
+    "description": "",
+    "objects": [
+        {
+            "classId": 42,
+            "classTitle": "Solid Line",
+            "createdAt": "2020-06-25T08:28:12.352Z",
+            "description": "",
+            "geometryType": "line",
+            "id": 89140,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        690
+                    ],
+                    [
+                        365,
+                        621
+                    ],
+                    [
+                        587,
+                        580
+                    ],
+                    [
+                        707,
+                        556
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 36,
+            "classTitle": "Traffic Sign",
+            "createdAt": "2020-06-25T08:28:18.383Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 89142,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        495,
+                        443
+                    ],
+                    [
+                        527,
+                        474
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 36,
+            "classTitle": "Traffic Sign",
+            "createdAt": "2020-06-25T08:28:20.260Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 89143,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        497,
+                        495
+                    ],
+                    [
+                        526,
+                        539
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 36,
+            "classTitle": "Traffic Sign",
+            "createdAt": "2020-06-25T08:28:23.134Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 89144,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        750,
+                        446
+                    ],
+                    [
+                        784,
+                        479
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 36,
+            "classTitle": "Traffic Sign",
+            "createdAt": "2020-06-25T08:28:25.061Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 89146,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        753,
+                        490
+                    ],
+                    [
+                        785,
+                        535
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 42,
+            "classTitle": "Solid Line",
+            "createdAt": "2020-06-25T08:28:27.348Z",
+            "description": "",
+            "geometryType": "line",
+            "id": 89147,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        836,
+                        580
+                    ],
+                    [
+                        710,
+                        614
+                    ],
+                    [
+                        490,
+                        680
+                    ],
+                    [
+                        0,
+                        833
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 42,
+            "classTitle": "Solid Line",
+            "createdAt": "2020-06-25T08:28:40.117Z",
+            "description": "",
+            "geometryType": "line",
+            "id": 89149,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        970,
+                        604
+                    ],
+                    [
+                        837,
+                        740
+                    ],
+                    [
+                        817,
+                        763
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 42,
+            "classTitle": "Solid Line",
+            "createdAt": "2020-06-25T08:28:42.910Z",
+            "description": "",
+            "geometryType": "line",
+            "id": 89150,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        818,
+                        763
+                    ],
+                    [
+                        971,
+                        651
+                    ],
+                    [
+                        1074,
+                        579
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 42,
+            "classTitle": "Solid Line",
+            "createdAt": "2020-06-25T08:28:48.109Z",
+            "description": "",
+            "geometryType": "line",
+            "id": 89152,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        818,
+                        763
+                    ],
+                    [
+                        627,
+                        921
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 43,
+            "classTitle": "Dashed Line",
+            "createdAt": "2020-06-25T08:28:51.014Z",
+            "description": "",
+            "geometryType": "line",
+            "id": 89153,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        623,
+                        924
+                    ],
+                    [
+                        275,
+                        1208
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 36,
+            "classTitle": "Traffic Sign",
+            "createdAt": "2020-06-25T08:28:55.936Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 89154,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1008,
+                        494
+                    ],
+                    [
+                        1041,
+                        537
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 36,
+            "classTitle": "Traffic Sign",
+            "createdAt": "2020-06-25T08:28:59.059Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 89156,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1008,
+                        440
+                    ],
+                    [
+                        1040,
+                        474
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 37,
+            "classTitle": "Traffic Light",
+            "createdAt": "2020-06-25T08:29:03.547Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 89158,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        929,
+                        468
+                    ],
+                    [
+                        937,
+                        487
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 36,
+            "classTitle": "Traffic Sign",
+            "createdAt": "2020-06-25T08:29:06.526Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 89159,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        964,
+                        338
+                    ],
+                    [
+                        1015,
+                        378
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 36,
+            "classTitle": "Traffic Sign",
+            "createdAt": "2020-06-25T08:29:08.679Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 89160,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1028,
+                        338
+                    ],
+                    [
+                        1074,
+                        379
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 42,
+            "classTitle": "Solid Line",
+            "createdAt": "2020-06-25T08:29:13.317Z",
+            "description": "",
+            "geometryType": "line",
+            "id": 89161,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1236,
+                        569
+                    ],
+                    [
+                        1273,
+                        623
+                    ],
+                    [
+                        1391,
+                        793
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 42,
+            "classTitle": "Solid Line",
+            "createdAt": "2020-06-25T08:29:17.991Z",
+            "description": "",
+            "geometryType": "line",
+            "id": 89162,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1323,
+                        586
+                    ],
+                    [
+                        1352,
+                        665
+                    ],
+                    [
+                        1392,
+                        791
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 42,
+            "classTitle": "Solid Line",
+            "createdAt": "2020-06-25T08:29:21.147Z",
+            "description": "",
+            "geometryType": "line",
+            "id": 89163,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1391,
+                        790
+                    ],
+                    [
+                        1568,
+                        1055
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 36,
+            "classTitle": "Traffic Sign",
+            "createdAt": "2020-06-25T08:29:26.261Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 89164,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1264,
+                        429
+                    ],
+                    [
+                        1300,
+                        462
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 36,
+            "classTitle": "Traffic Sign",
+            "createdAt": "2020-06-25T08:29:28.364Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 89165,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1266,
+                        491
+                    ],
+                    [
+                        1296,
+                        537
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 39,
+            "classTitle": "Traffic Cone",
+            "createdAt": "2020-06-25T08:29:32.801Z",
+            "description": "",
+            "geometryType": "polygon",
+            "id": 89166,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1302,
+                        586
+                    ],
+                    [
+                        1306,
+                        558
+                    ],
+                    [
+                        1308,
+                        532
+                    ],
+                    [
+                        1312,
+                        532
+                    ],
+                    [
+                        1316,
+                        551
+                    ],
+                    [
+                        1320,
+                        586
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 43,
+            "classTitle": "Dashed Line",
+            "createdAt": "2020-06-25T08:29:44.379Z",
+            "description": "",
+            "geometryType": "line",
+            "id": 89174,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1333,
+                        492
+                    ],
+                    [
+                        1374,
+                        511
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 42,
+            "classTitle": "Solid Line",
+            "createdAt": "2020-06-25T08:29:45.610Z",
+            "description": "",
+            "geometryType": "line",
+            "id": 89175,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1376,
+                        513
+                    ],
+                    [
+                        1385,
+                        524
+                    ],
+                    [
+                        1398,
+                        535
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 42,
+            "classTitle": "Solid Line",
+            "createdAt": "2020-06-25T08:29:48.415Z",
+            "description": "",
+            "geometryType": "line",
+            "id": 89176,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1375,
+                        511
+                    ],
+                    [
+                        1402,
+                        520
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 42,
+            "classTitle": "Solid Line",
+            "createdAt": "2020-06-25T08:29:51.807Z",
+            "description": "",
+            "geometryType": "line",
+            "id": 89178,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1361,
+                        480
+                    ],
+                    [
+                        1437,
+                        488
+                    ],
+                    [
+                        1493,
+                        499
+                    ],
+                    [
+                        1519,
+                        504
+                    ],
+                    [
+                        1577,
+                        520
+                    ],
+                    [
+                        1597,
+                        527
+                    ],
+                    [
+                        1643,
+                        534
+                    ],
+                    [
+                        1744,
+                        555
+                    ],
+                    [
+                        1920,
+                        591
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 42,
+            "classTitle": "Solid Line",
+            "createdAt": "2020-06-25T08:30:03.719Z",
+            "description": "",
+            "geometryType": "line",
+            "id": 89180,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1920,
+                        737
+                    ],
+                    [
+                        1664,
+                        620
+                    ],
+                    [
+                        1594,
+                        585
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 42,
+            "classTitle": "Solid Line",
+            "createdAt": "2020-06-25T08:30:09.060Z",
+            "description": "",
+            "geometryType": "line",
+            "id": 89181,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1492,
+                        579
+                    ],
+                    [
+                        1498,
+                        583
+                    ],
+                    [
+                        1515,
+                        586
+                    ],
+                    [
+                        1528,
+                        589
+                    ],
+                    [
+                        1541,
+                        593
+                    ],
+                    [
+                        1567,
+                        604
+                    ],
+                    [
+                        1658,
+                        645
+                    ],
+                    [
+                        1920,
+                        750
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 40,
+            "classTitle": "Traffic Barrier",
+            "createdAt": "2020-06-25T08:30:20.436Z",
+            "description": "",
+            "geometryType": "polygon",
+            "id": 89183,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1387,
+                        591
+                    ],
+                    [
+                        1387,
+                        558
+                    ],
+                    [
+                        1427,
+                        558
+                    ],
+                    [
+                        1486,
+                        556
+                    ],
+                    [
+                        1487,
+                        565
+                    ],
+                    [
+                        1487,
+                        579
+                    ],
+                    [
+                        1488,
+                        592
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 36,
+            "classTitle": "Traffic Sign",
+            "createdAt": "2020-06-25T08:30:33.125Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 89185,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1545,
+                        418
+                    ],
+                    [
+                        1584,
+                        454
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 36,
+            "classTitle": "Traffic Sign",
+            "createdAt": "2020-06-25T08:30:35.411Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 89187,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1548,
+                        492
+                    ],
+                    [
+                        1582,
+                        539
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 40,
+            "classTitle": "Traffic Barrier",
+            "createdAt": "2020-06-25T08:30:43.283Z",
+            "description": "",
+            "geometryType": "polygon",
+            "id": 89189,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1677,
+                        567
+                    ],
+                    [
+                        1762,
+                        568
+                    ],
+                    [
+                        1793,
+                        566
+                    ],
+                    [
+                        1845,
+                        565
+                    ],
+                    [
+                        1916,
+                        566
+                    ],
+                    [
+                        1916,
+                        606
+                    ],
+                    [
+                        1895,
+                        607
+                    ],
+                    [
+                        1778,
+                        605
+                    ],
+                    [
+                        1724,
+                        605
+                    ],
+                    [
+                        1681,
+                        605
+                    ],
+                    [
+                        1673,
+                        601
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 39,
+            "classTitle": "Traffic Cone",
+            "createdAt": "2020-06-25T08:30:57.050Z",
+            "description": "",
+            "geometryType": "polygon",
+            "id": 89191,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1741,
+                        567
+                    ],
+                    [
+                        1745,
+                        534
+                    ],
+                    [
+                        1752,
+                        534
+                    ],
+                    [
+                        1754,
+                        567
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 37,
+            "classTitle": "Traffic Light",
+            "createdAt": "2020-06-25T08:31:04.439Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 89192,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        709,
+                        231
+                    ],
+                    [
+                        727,
+                        249
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 37,
+            "classTitle": "Traffic Light",
+            "createdAt": "2020-06-25T08:31:06.788Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 89193,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        945,
+                        225
+                    ],
+                    [
+                        962,
+                        245
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 37,
+            "classTitle": "Traffic Light",
+            "createdAt": "2020-06-25T08:31:08.135Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 89194,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        976,
+                        226
+                    ],
+                    [
+                        996,
+                        245
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 36,
+            "classTitle": "Traffic Sign",
+            "createdAt": "2020-06-25T08:31:18.479Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 89196,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1039,
+                        56
+                    ],
+                    [
+                        1381,
+                        113
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 37,
+            "classTitle": "Traffic Light",
+            "createdAt": "2020-06-25T08:31:22.127Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 89198,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1150,
+                        223
+                    ],
+                    [
+                        1171,
+                        241
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 37,
+            "classTitle": "Traffic Light",
+            "createdAt": "2020-06-25T08:31:24.009Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 89199,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1376,
+                        219
+                    ],
+                    [
+                        1395,
+                        237
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 37,
+            "classTitle": "Traffic Light",
+            "createdAt": "2020-06-25T08:31:26.797Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 89200,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1676,
+                        209
+                    ],
+                    [
+                        1695,
+                        226
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 38,
+            "classTitle": "Freespace",
+            "createdAt": "2020-06-25T08:31:34.965Z",
+            "description": "",
+            "geometryType": "polygon",
+            "id": 89201,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1920,
+                        1208
+                    ],
+                    [
+                        1920,
+                        605
+                    ],
+                    [
+                        1684,
+                        604
+                    ],
+                    [
+                        1670,
+                        598
+                    ],
+                    [
+                        1600,
+                        586
+                    ],
+                    [
+                        1548,
+                        587
+                    ],
+                    [
+                        1486,
+                        590
+                    ],
+                    [
+                        1386,
+                        590
+                    ],
+                    [
+                        1300,
+                        585
+                    ],
+                    [
+                        1271,
+                        583
+                    ],
+                    [
+                        1252,
+                        581
+                    ],
+                    [
+                        1233,
+                        497
+                    ],
+                    [
+                        1217,
+                        496
+                    ],
+                    [
+                        1217,
+                        568
+                    ],
+                    [
+                        1128,
+                        569
+                    ],
+                    [
+                        1112,
+                        569
+                    ],
+                    [
+                        1111,
+                        540
+                    ],
+                    [
+                        1103,
+                        543
+                    ],
+                    [
+                        1082,
+                        559
+                    ],
+                    [
+                        1068,
+                        577
+                    ],
+                    [
+                        1054,
+                        582
+                    ],
+                    [
+                        1031,
+                        587
+                    ],
+                    [
+                        1002,
+                        585
+                    ],
+                    [
+                        1002,
+                        537
+                    ],
+                    [
+                        1004,
+                        516
+                    ],
+                    [
+                        1006,
+                        497
+                    ],
+                    [
+                        1018,
+                        490
+                    ],
+                    [
+                        1018,
+                        481
+                    ],
+                    [
+                        1008,
+                        472
+                    ],
+                    [
+                        1001,
+                        469
+                    ],
+                    [
+                        973,
+                        467
+                    ],
+                    [
+                        973,
+                        475
+                    ],
+                    [
+                        971,
+                        483
+                    ],
+                    [
+                        965,
+                        492
+                    ],
+                    [
+                        960,
+                        499
+                    ],
+                    [
+                        970,
+                        501
+                    ],
+                    [
+                        972,
+                        508
+                    ],
+                    [
+                        972,
+                        515
+                    ],
+                    [
+                        970,
+                        523
+                    ],
+                    [
+                        968,
+                        530
+                    ],
+                    [
+                        949,
+                        540
+                    ],
+                    [
+                        836,
+                        576
+                    ],
+                    [
+                        814,
+                        581
+                    ],
+                    [
+                        785,
+                        585
+                    ],
+                    [
+                        765,
+                        583
+                    ],
+                    [
+                        758,
+                        579
+                    ],
+                    [
+                        760,
+                        545
+                    ],
+                    [
+                        681,
+                        560
+                    ],
+                    [
+                        547,
+                        584
+                    ],
+                    [
+                        506,
+                        586
+                    ],
+                    [
+                        161,
+                        646
+                    ],
+                    [
+                        0,
+                        676
+                    ],
+                    [
+                        0,
+                        1208
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 42,
+            "classTitle": "Solid Line",
+            "createdAt": "2020-06-25T08:32:22.641Z",
+            "description": "",
+            "geometryType": "line",
+            "id": 89209,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        961,
+                        500
+                    ],
+                    [
+                        982,
+                        493
+                    ],
+                    [
+                        990,
+                        489
+                    ],
+                    [
+                        992,
+                        485
+                    ],
+                    [
+                        989,
+                        483
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.236Z"
+        },
+        {
+            "classId": 36,
+            "classTitle": "Traffic Sign",
+            "createdAt": "2020-07-10T10:37:41.075Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 158092,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1013,
+                        325
+                    ],
+                    [
+                        1034,
+                        335
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-07-10T10:37:41.075Z"
+        }
+    ],
+    "size": {
+        "height": 1208,
+        "width": 1920
+    },
+    "tags": [
+        {
+            "name": "Daytime",
+            "value": "Day"
+        },
+        {
+            "name": "Scene Type",
+            "value": "Other"
+        },
+        {
+            "name": "Traffic Condition",
+            "value": "Light Traffic"
+        },
+        {
+            "name": "Weather Condition",
+            "value": "Clear"
+        }
+    ]
+}

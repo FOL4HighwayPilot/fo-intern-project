@@ -1,0 +1,263 @@
+{
+    "description": "",
+    "objects": [
+        {
+            "classId": 42,
+            "classTitle": "Solid Line",
+            "createdAt": "2020-06-25T08:12:15.350Z",
+            "description": "",
+            "geometryType": "line",
+            "id": 88953,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        713
+                    ],
+                    [
+                        536,
+                        632
+                    ],
+                    [
+                        884,
+                        586
+                    ],
+                    [
+                        1198,
+                        555
+                    ],
+                    [
+                        1487,
+                        532
+                    ],
+                    [
+                        1771,
+                        514
+                    ],
+                    [
+                        1920,
+                        506
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-06-25T08:13:22.847Z"
+        },
+        {
+            "classId": 43,
+            "classTitle": "Dashed Line",
+            "createdAt": "2020-06-25T08:12:26.872Z",
+            "description": "",
+            "geometryType": "line",
+            "id": 88954,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1920,
+                        601
+                    ],
+                    [
+                        1857,
+                        614
+                    ],
+                    [
+                        1644,
+                        661
+                    ],
+                    [
+                        1522,
+                        701
+                    ],
+                    [
+                        1433,
+                        739
+                    ],
+                    [
+                        1270,
+                        850
+                    ],
+                    [
+                        1170,
+                        940
+                    ],
+                    [
+                        1139,
+                        986
+                    ],
+                    [
+                        1034,
+                        1208
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-06-25T08:13:22.847Z"
+        },
+        {
+            "classId": 43,
+            "classTitle": "Dashed Line",
+            "createdAt": "2020-06-25T08:12:41.275Z",
+            "description": "",
+            "geometryType": "line",
+            "id": 88955,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        888
+                    ],
+                    [
+                        272,
+                        814
+                    ],
+                    [
+                        548,
+                        741
+                    ],
+                    [
+                        806,
+                        682
+                    ],
+                    [
+                        998,
+                        644
+                    ],
+                    [
+                        1181,
+                        613
+                    ],
+                    [
+                        1301,
+                        596
+                    ],
+                    [
+                        1540,
+                        566
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-06-25T08:13:22.847Z"
+        },
+        {
+            "classId": 38,
+            "classTitle": "Freespace",
+            "createdAt": "2020-06-25T08:12:57.810Z",
+            "description": "",
+            "geometryType": "polygon",
+            "id": 88956,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1920,
+                        1208
+                    ],
+                    [
+                        1920,
+                        500
+                    ],
+                    [
+                        1544,
+                        522
+                    ],
+                    [
+                        1029,
+                        560
+                    ],
+                    [
+                        496,
+                        623
+                    ],
+                    [
+                        0,
+                        691
+                    ],
+                    [
+                        0,
+                        1208
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-06-25T08:13:22.847Z"
+        },
+        {
+            "classId": 36,
+            "classTitle": "Traffic Sign",
+            "createdAt": "2020-06-25T08:13:18.301Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 88958,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        1500,
+                        382
+                    ],
+                    [
+                        1526,
+                        419
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-06-25T08:13:22.847Z"
+        },
+        {
+            "classId": 36,
+            "classTitle": "Traffic Sign",
+            "createdAt": "2020-06-25T08:13:22.748Z",
+            "description": "",
+            "geometryType": "rectangle",
+            "id": 88959,
+            "labelerLogin": "odogan13",
+            "points": {
+                "exterior": [
+                    [
+                        79,
+                        399
+                    ],
+                    [
+                        137,
+                        461
+                    ]
+                ],
+                "interior": []
+            },
+            "tags": [],
+            "updatedAt": "2020-06-25T08:13:22.748Z"
+        }
+    ],
+    "size": {
+        "height": 1208,
+        "width": 1920
+    },
+    "tags": [
+        {
+            "name": "Daytime",
+            "value": "Day"
+        },
+        {
+            "name": "Scene Type",
+            "value": "No Anomaly"
+        },
+        {
+            "name": "Traffic Condition",
+            "value": "Light Traffic"
+        },
+        {
+            "name": "Weather Condition",
+            "value": "Clear"
+        }
+    ]
+}
