@@ -5,7 +5,7 @@
 1. In order to clone the repo to your local computer:
 
     ```bash
-     git clone https://github.com/cakirogluozan/fo-intern-project
+     git clone https://github.com/FOL4HighwayPilot/intern-p1
     ```
 
     or directly download from the button (but it is not recommended.)
