@@ -22,19 +22,17 @@
         ```bash
         source venv/bin/activate
         ```
-
-    - deactivate the virtual environment:
-
-        ```bash
-        deactivate
-        ```
-
-    - YOU HAVE TO BE IN THE ROOT DIRECTORY FOR THIS COMMANDS.
 3. Install required libraries:
 
     ```bash
      pip install -r requirements.txt
     ```
+ 
+In order to deactivate the virtual environment:
+
+        ```bash
+        deactivate
+        ```
 
 ## Data Preprocessing
 
