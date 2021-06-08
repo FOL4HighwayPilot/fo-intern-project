@@ -30,9 +30,9 @@
  
 In order to deactivate the virtual environment:
 
-        ```bash
-        deactivate
-        ```
+```
+deactivate
+```
 
 ## Data Preprocessing
 
