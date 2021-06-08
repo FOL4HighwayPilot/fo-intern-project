@@ -1,5 +1,6 @@
 import torch.nn as nn
 import torch.nn.functional as F
+from constant import *
 
 
 class FoInternNet(nn.Module):
@@ -7,7 +8,7 @@ class FoInternNet(nn.Module):
         super(FoInternNet, self).__init__()
         self.input_size = input_size
         self.n_classes = n_classes
-        
+
         self.conv1 = nn.Conv2d(in_channels=3, out_channels=64, kernel_size=1, stride=1)
         self.conv2 = nn.Conv2d(in_channels=64, out_channels=n_classes, kernel_size=1, stride=1)
 
@@ -21,6 +22,5 @@ class FoInternNet(nn.Module):
 
 
 if __name__ == '__main__':
-    model = FoInternNet(input_size=(224, 224), n_classes=2)
+    model = FoInternNet(input_size=(HEIGHT, WIDTH), n_classes=N_CLASS)
 
-    
