@@ -41,37 +41,25 @@
 
 [Click on this link](https://youtu.be/i_rToxP3Txo) for a video that briefly explains the difference between machine learning and deep learning. After watching this video please search and answer the following questions:
 
-What is Machine Learning?
-
-What is Unsupervised vs Supervised learning difference?
-
-What is Deep Learning?
-
-What is Neural Network (NN)?
-
-What is Convolution Neural Network (CNN)?  Please give 2 advantages over NN.
-
-What is segmentation task in NN? Is it supervised or unsupervised? 
-
-What is classification task in NN? Is it supervised or unsupervised?
-
-Compare segmentation and classification in NN.
-
-What is data and dataset difference?
-
-What is the difference between supervised and unsupervised learning in terms of dataset?
+- What is Machine Learning?
+- What is Unsupervised vs Supervised learning difference?
+- What is Deep Learning?
+- What is Neural Network (NN)?
+- What is Convolution Neural Network (CNN)?  Please give 2 advantages over NN.
+- What is segmentation task in NN? Is it supervised or unsupervised?
+- What is classification task in NN? Is it supervised or unsupervised?
+- Compare segmentation and classification in NN.
+- What is data and dataset difference?
+- What is the difference between supervised and unsupervised learning in terms of dataset?
 
 ## Data Preprocessing
 
 ### Extracting Masks
 
-What is color space ?
-
-What RGB stands for ?
-
-In Python, can we transform from one color space to another? 
-
-What is the popular library for image processing?
+- What is color space ?
+- What RGB stands for ?
+- In Python, can we transform from one color space to another?
+- What is the popular library for image processing?
 
 In this part of the project, we want you to convert every JSON file into mask images:
 
@@ -89,19 +77,16 @@ In this part of the project, we want you to convert every JSON file into mask im
     python3 mask_on_image.py
     ```
 
-What do you think these masks will be used for? (Feature ? Label ?)
+- What do you think these masks will be used for? (Feature ? Label ?)
 
 ### Converting into Tensor
 
 Before go on, please search and answer following questions:
 
-Explain Computational Graph.
-
-What is Tensor?
-
-What is one hot encoding?
-
-What is CUDA programming? Answer without detail.  
+- Explain Computational Graph.
+- What is Tensor?
+- What is one hot encoding?
+- What is CUDA programming? Answer without detail.
 
 The images and masks refer to "features" and "labels" for Segmentation. To feed them into the Segmentation model, which will be written in PyTorch, we need to format them appropriately. In this part, we will solve this issue. In the `preprocess.py`, there are two helper functions:
 
@@ -116,11 +101,9 @@ At the end of the task, your data will be ready to train the model designed. We 
 
 Before go on, please search and answer following questions:
 
-What is the difference between CNN and Fully CNN (FCNN) ? 
-
-What are the different layers on CNN ?
-
-What is activation function ? Why is softmax usually used in the last layer?
+- What is the difference between CNN and Fully CNN (FCNN) ?
+- What are the different layers on CNN ?
+- What is activation function ? Why is softmax usually used in the last layer?
 
 There is a script to design our model: `model.py`. In this script, we could program our model. This will require research. To visualize your model at the end, you can use [this](http://alexlenail.me/NN-SVG/) website. 
 
@@ -128,22 +111,14 @@ There is a script to design our model: `model.py`. In this script, we could prog
 
 Before go on, please search and answer following questions:
 
-What is parameter in NN ? 
-
-What is hyper-parameter in NN ?
-
-We mention the dataset and we separate it into 2: training & test. In addition to them, there is a validation dataset. What is it for?
-
-What is epoch?
-
-What is batch? 
-
-What is iteration? Explain with an example: "If we have x images as data and batch size is y. Then an epoch should run z iterations."
-
-What Is the Cost Function? 
-
-The process of minimizing (or maximizing) any mathematical expression is called optimization. What is/are the purpose(s) of an optimizer in NN?
-
-What is Batch Gradient Descent & Stochastic Gradient Descent? Compare them. 
+- What is parameter in NN ?
+- What is hyper-parameter in NN ?
+- We mention the dataset and we separate it into 2: training & test. In addition to them, there is a validation dataset. What is it for?
+- What is epoch?
+- What is batch?
+- What is iteration? Explain with an example: "If we have x images as data and batch size is y. Then an epoch should run z iterations."
+- What Is the Cost Function?
+- The process of minimizing (or maximizing) any mathematical expression is called optimization. What is/are the purpose(s) of an optimizer in NN?
+- What is Batch Gradient Descent & Stochastic Gradient Descent? Compare them.
 
 We prepare a `train.py` script that combines all our work & techniques mention in the questions. Play with hyper-parameters and examine their effects! Enjoy 🙂
