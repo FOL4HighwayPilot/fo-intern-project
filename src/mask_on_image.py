@@ -15,10 +15,12 @@ for f in mask_list:
 
 # For every mask image
 for mask_name in tqdm.tqdm(mask_list):
+    # Name without extension
+    mask_name_without_ex = mask_name.split('.')[0]
 
     # Access required folders
     mask_path      = os.path.join(MASK_DIR, mask_name)
-    image_path     = os.path.join(IMAGE_DIR, mask_name)
+    image_path     = os.path.join(IMAGE_DIR, mask_name_without_ex+'.jpg')
     image_out_path = os.path.join(IMAGE_OUT_DIR, mask_name)
 
     # Read mask and corresponding original image
@@ -36,5 +38,6 @@ for mask_name in tqdm.tqdm(mask_list):
 
     # Visualize created image if VISUALIZE option is chosen
     if VISUALIZE:
+        plt.figure()
         plt.imshow(opac_image)
         plt.show()

@@ -7,8 +7,18 @@ from constant import JSON_DIR, MASK_DIR
 
 
 
-# Create a list which contains every file name in jsons folder
+# Create a list which contains every file name in "jsons" folder
 json_list = os.listdir(JSON_DIR)
+
+""" tqdm Example Start"""
+
+iterator_example = range(1000000)
+
+for i in tqdm.tqdm(iterator_example):
+    pass
+
+""" rqdm Example End"""
+
 
 # For every json file
 for json_name in tqdm.tqdm(json_list):

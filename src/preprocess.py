@@ -1,20 +1,18 @@
 """
-We need to prepare the data in order to feed the network.For this, we should
-have - data/masks, data/images - directories where we prepared masks and input images.
+We need to prepare the data to feed the network: we have - data/masks, data/images - directories where we prepared masks and input images. Then, convert each file/image into a tensor for our purpose.
 
 We need to write two functions in src/preprocess.py:
-    - one for image reading and preparing          -> tensorize_image()
-    - the other for mask reading and preparing.    -> tensorize_mask()
+    - one for feature/input          -> tensorize_image()
+    - the other for mask/label    -> tensorize_mask()
 
 
-Our model will accept
-the input whose dimension is
- [batch_size, output_shape[0], output_shape[1], 3]
-             &
- the label whose dimension is
- [batch_size, output_shape[0], output_shape[1], 2].
+Our model will accepts the input/feature tensor whose dimension is
+[batch_size, output_shape[0], output_shape[1], 3]
+&
+the label tensor whose dimension is
+[batch_size, output_shape[0], output_shape[1], 2].
 
-At the end of the task your data will be ready to train the model designed.
+At the end of the task, our data will be ready to train the model designed.
 
 """
 
@@ -74,7 +72,6 @@ def tensorize_image(image_path_list, output_shape, cuda=False):
 
     return torch_image
 
-
 def tensorize_mask(mask_path_list, output_shape, n_class, cuda=False):
     """
 
@@ -126,24 +123,28 @@ def tensorize_mask(mask_path_list, output_shape, n_class, cuda=False):
 
     return torch_mask
 
-
-
 def image_mask_check(image_path_list, mask_path_list):
     """
-
+    Since it is supervised learning, there must be an expected output for each
+    input. This function assumes input and expected output images with the
+    same name.
 
     Parameters
     ----------
-    image_path_list : TYPE
-        DESCRIPTION.
-    mask_path_list : TYPE
-        DESCRIPTION.
+    image_path_list : list of strings
+        [“data/images/images1.png”, .., “data/images/imagesn.png”] corresponds
+        to n original image to be used as features.
+    mask_path_list : list of strings
+        [“data/masks/mask1.png”, .., “data/masks/maskn.png”] corresponds
+        to n masks to be used as labels.
 
     Returns
     -------
-    None.
+    bool
+        Returns true if there is expected output/label for each input.
 
     """
+
     # Check list lengths
     if len(image_path_list) != len(mask_path_list):
         print("There are missing files ! Images and masks folder should have same number of files.")
@@ -182,15 +183,12 @@ def torchlike_data(data):
     n_channels = data.shape[2]
 
     # Create and empty image whose dimension is similar to input
-    torchlike_data_output = np.empty((n_channels, data.shape[0], data.shape[1]))
+    torchlike_data_output = np.empty((...))
 
     # For each channel
-    for each_channel in range(n_channels):
-        torchlike_data_output[each_channel] = data[:,:,each_channel]
+    ...
 
     return torchlike_data_output
-
-
 
 def one_hot_encoder(data, n_class):
     """
@@ -226,22 +224,8 @@ def one_hot_encoder(data, n_class):
 
     #
     for lbl in range(n_class):
+        ...
 
-        # lbl = 0 için (arkaplan) [1, 0] labelini oluşturuyorum
-        # lbl = 1 için (freespace) [0, 1] labelini oluşturuyorum.
-        encoded_label = encoded_labels[lbl]
-
-        # lbl = 0 için data'nın 0'a eşit olduğu w,h ikililerini
-        # alıyorum diyelim ki (F).
-        # lbl = 1 için data'nın 1'e eşit olduğu w,h ikililerini alıyorum
-        # diyelim ki (O).
-        numerical_class_inds = data[:,:] == lbl
-
-        # lbl = 0 için tüm F'in sahip olduğu tüm w,h ikililerini
-        # [1, 0]'a eşitliyorum.
-        # lbl = 1 için tüm O'un sahip olduğu tüm w,h ikililerini
-        # [0, 1]'e eşitliyorum.
-        encoded_data[numerical_class_inds] = encoded_label
 
 
     return encoded_data
