@@ -64,14 +64,14 @@
 In this part of the project, we want you to convert every JSON file into mask images:
 
 1. Move json files into data/jsons folder.
-2. Open src folder and run `json2mask.py` (Click for the video explaining the code: [Eng](https://youtu.be/p_JnbbSAxmU), [Tr](https://youtu.be/P8OJ2JTiJa4)) :
+2. Open src folder and run `json2mask.py` There is a video explaining the code: [Please click for English Lecture](https://youtu.be/p_JnbbSAxmU). [Please click for Turkish Lecture](https://youtu.be/P8OJ2JTiJa4).
 
     ```bash
     cd src/
     python3 json2mask.py
     ```
 
-3. To check mask files, run `mask_on_image.py` (Click for the video explaining the code: [Tr](https://youtu.be/xBA72K2Bp5E)) : 
+3. To check mask files, run `mask_on_image.py` There is a video explaining the code: [Please click for Turkish Lecture.](https://youtu.be/xBA72K2Bp5E)
 
     ```bash
     python3 mask_on_image.py
@@ -88,7 +88,7 @@ Before go on, please search and answer following questions:
 - What is one hot encoding?
 - What is CUDA programming? Answer without detail.
 
-The images and masks refer to "features" and "labels" for Segmentation. To feed them into the Segmentation model, which will be written in PyTorch, we need to format them appropriately. In this part, we will solve this issue. In the `preprocess.py` (Click for the video explaining the code: [Tr](https://youtu.be/znP2-rSK_QE) ), there are two helper functions:
+The images and masks refer to "features" and "labels" for Segmentation. To feed them into the Segmentation model, which will be written in PyTorch, we need to format them appropriately. In this part, we will solve this issue. In the `preprocess.py` There is a video explaining the code: [Please click for Turkish Lecture.](https://youtu.be/znP2-rSK_QE)  There are two helper functions:
 
 1. To convert images to tensor, we need  `tensorize_mask(.)`. For this complete `torchlike_data(.)`
 2. To convert masks to tensor, we need `tensorize_mask(.)`. For this, complete `one_hot_encoder(.)`
