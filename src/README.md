@@ -64,7 +64,19 @@
 In this part of the project, we want you to convert every JSON file into mask images:
 
 1. Move json files into data/jsons folder.
-2. Open src folder and run `json2mask.py` There is a video explaining the code: [Please click for English Lecture](https://youtu.be/p_JnbbSAxmU). [Please click for Turkish Lecture](https://youtu.be/P8OJ2JTiJa4).
+2. Open the src folder and run `json2mask.py` There is a video explaining the code: [Please click for English Lecture](https://youtu.be/p_JnbbSAxmU). [Please click for Turkish Lecture](https://youtu.be/P8OJ2JTiJa4).
+
+    For those who want to follow the steps one by one:
+
+    1. You need to move your files into data/jsons folder.
+    2. You need to create a list which contains every file name in jsons folder.
+    3. In a for loop, you need to read every json file and convert them into json dictionaries.
+    4. You need to get width and height of image.
+    5. You need to create an empty mask which will be filled with freespace polygons.
+    6. You need to get objects in the dictionary, and in a for loop, you need to check the objects 'classTitle' are 'Freespace' or not.
+    7. If it is a Freespace object, then you need to extract 'points' then 'exterior' of points which is a point list that contains every edge of polygon you clicked while labeling.
+    8. You need to fill the mask with the array.
+    9. You need to write mask image into data/masks folder. 
 
     ```bash
     cd src/
@@ -105,7 +117,15 @@ Before go on, please search and answer following questions:
 - What are the different layers on CNN ?
 - What is activation function ? Why is softmax usually used in the last layer?
 
-There is a script to design our model: `model.py`. In this script, we could program our model. This will require research. To visualize your model at the end, you can use [this](http://alexlenail.me/NN-SVG/) website. 
+There is a script to design our model: `model.py`. In this script, we could program our model. This will require research. Below are the videos we think can help you:
+
+- [Create tensors in PyTorch + Matrix Multiplication](https://youtu.be/gXVQKueWoIA)
+- [Forward Pass](https://youtu.be/bQ3vD_3WnLQ)
+- [Backpropogation](https://youtu.be/HKWp78wEVJU)
+- [Calculating Gradients](https://youtu.be/attSzjiD7YU)
+- [Build NN & model.py](https://youtu.be/AojVTBLnwNM)
+
+To visualize your model at the end, you can use [this](http://alexlenail.me/NN-SVG/) website.
 
 ## Train
 
@@ -120,5 +140,6 @@ Before go on, please search and answer following questions:
 - What Is the Cost Function?
 - The process of minimizing (or maximizing) any mathematical expression is called optimization. What is/are the purpose(s) of an optimizer in NN?
 - What is Batch Gradient Descent & Stochastic Gradient Descent? Compare them.
+- What is Backpropogation ? What is used for ?
 
 We prepare a `train.py` script that combines all our work & techniques mention in the questions. Play with hyper-parameters and examine their effects! Enjoy 🙂
